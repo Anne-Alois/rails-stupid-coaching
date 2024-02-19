@@ -1,0 +1,9 @@
+<div class="border-start border-5 border-light-subtle mx-auto p-2">
+  <p><%= params[:ask] %></p>
+  <p>-You</p>
+</div>
+<div class="bg-warning border-start border-5 border-light-subtle mx-auto p-2 m-3" style="--bs-bg-opacity: .2;">
+  <strong><%= link_to @answer, ask_path %></strong>
+  <p>Your coach</p>
+  <h6>Ask a new question</h6>
+</div>
